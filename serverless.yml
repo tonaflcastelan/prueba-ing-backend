@@ -1,0 +1,11 @@
+service: resuelve-test
+
+provider:
+  name: aws
+  runtime: python3.7
+
+functions:
+  prueba-ing-backend:
+    handler: index.handler
+plugins:
+  - serverless-python-requirements
